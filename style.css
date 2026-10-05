@@ -1,13 +1,15 @@
-/* Style sheet for shared features/customizations*/
+/* Style sheet for shared features/customizations on default view*/
 
+/*Page background customization*/
 body {
     background: linear-gradient(to right,   rgb(36, 84, 214), cyan 100%);
     padding: 0px;
     margin: 0px;
 }
 
+/*Formatting for wrapper orientation (Content in wrapper)*/
 #wrapper {
-    width: 1000px;
+    width: 1100px;
     height: 900px;
     margin-right: auto;
     margin-left: auto;
@@ -30,13 +32,14 @@ body {
     text-align: center;
 }
 
-
+/*Left column formatting*/
 #left-column{
     float: left;
     height: 600px;
     width: 500px;
 }
 
+/*Right column formatting*/
 #right-column{
     float: right;
     height: 600px;
@@ -53,6 +56,12 @@ body {
     padding: 15px;
     border-radius: 8px;
     box-shadow: 2px 2px 
+}
+
+/*Formatting for the form in contacts page*/
+form {
+    margin: 15px;
+    padding: 15px;
 }
 
 .clear{

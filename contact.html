@@ -1,10 +1,81 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html>
     <head>
-        <meta charset ="UTF-8">
-        <title>Contact - Page</title>
+        <!-- Set characters, link html to stylesheet, Title for Homepage-->
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title> Contact Form </title>
     </head>
     <body>
+        <!--ID wrapper for home screen general customization-->
+        <div id="wrapper">
 
+            <!--Header Content/Customizations-->
+            <div id = "header"> 
+                <h1>Shakir Hossain's Portfolio</h1>
+                <!-- Header Navigation bar linked to Home and Other Pages-->
+                <nav>
+                    <a href="home.html">Home</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+            
+            <!--Left and Right Columns also provide space-->
+            <!--Left Column for Two boxes on the left side-->
+            <div id ="left-column">
+                <!--Form Creation-->
+                <form action="mailto:shakir.hossain@ontariotechu.net"
+                method="post" enctype="text/plain" name="form">
+                <!--Text Box Inputs-->
+                <h1>Contact Form</h1>
+                <p>
+                    <label for="Fname">First Name :</label>
+                    <input type="text" name="Fname" size="32" required>
+                </p>
+                <p>
+                    <label for="Lname">Last Name :</label>
+                    <input type="text" name="Fname" size="32" required>
+                </p>
+                <p>
+                    <label for="email">Email     :</label>
+                    <input type="email" name="email" size="32" required>
+                </p>
+                <p>
+                    <label for="Comments">Message :</label>
+                <br>
+                    <textarea name="Comments" cols="60" rows="8"></textarea>
+                </p>
+                <input type="submit" value="Click here to submit the form">
+                <input type="reset" value="Click here to reset the form">
+                </form>
+            </div>
+
+            <!--Right Column for Two boxes on the right side-->
+            <div id ="right-column">
+                
+            </div>
+            
+            <div class ="clear"></div>
+
+            <!--Footer Content/Customizations-->
+            <div id = "footer"> 
+                <!--Footer Navigation bar linked to Home and Other pages-->
+                <!--Footer provides email information-->
+                <nav>
+                    <p></p>
+                    <a href="home.html">Home</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="about.html">About</a>
+                    <a href="contact.html">Contact</a>
+                    <!-- Address tag to link my email on footer-->
+                    <address>
+                        <p> Contact me at <a href="shakir.hossain@ontariotechu.net">shakir.hossain@ontariotechu.net</a></p>
+                    </address>
+                </nav>
+            </div>
+
+        </div>
     </body>
 </html>
