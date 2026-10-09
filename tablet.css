@@ -1,4 +1,4 @@
-/* Style sheet for shared features/customizations on default view*/
+/* Style sheet for shared features/customizations on tablet view*/
 
 /*Page background customization*/
 body {
@@ -8,8 +8,8 @@ body {
 }
 
 /*Formatting for wrapper orientation (Content in wrapper)*/
-#wrapper {
-    width: 1100px;
+#wrapper, #wrapper2 {
+    width: 90%;
     height: 900px;
     margin-right: auto;
     margin-left: auto;
@@ -17,10 +17,6 @@ body {
 
 /*Seperate wrapper ID for about page, to integrate radial gradient background*/
 #wrapper2 {
-    width: 1100px;
-    height: 900px;
-    margin-right: auto;
-    margin-left: auto;
     background: radial-gradient(ellipse at center,  rgb(36, 84,214) 0%, cyan 100%)
 }
 
@@ -45,41 +41,44 @@ body {
 #left-column{
     float: left;
     height: 600px;
-    width: 500px;
+    width: 48%;
 }
 
 /*Right column formatting*/
 #right-column{
     float: right;
     height: 600px;
-    width: 500px;
+    width: 48%;
 }
 
 /*Div class to be able to add multiple boxes for projects, */
 /*Customizations and Formatting for box class*/
+/*Now using percentage for width, and remove float for tablet*/
 .box{
     height: 250px;
-    width: 300px;
-    float: left;
-    margin: 15px;
-    padding: 15px;
+    width: 90%;
+    margin: 10px;
+    padding: 10px;
     border-radius: 8px;
     box-shadow: 2px 2px 
 }
 
-/*Formatting for the form in contacts page*/
+/*Formatting for the form in contacts page, altered margin/padding*/
 form {
-    margin: 15px;
-    padding: 15px;
+    margin: 10px;
+    padding: 10px;
 }
 
 .clear{
     clear: both;
 }
 
+/*altered width for video player*/
 video {
-    margin: 15px;
-    padding: 15px;
+    width: 90%;
+    height: 90%;
+    margin: 10px;
+    padding: 10px;
     background-color: #bb26e9;
     border: 2px white solid;
     box-shadow: 10px 10px 15px black;

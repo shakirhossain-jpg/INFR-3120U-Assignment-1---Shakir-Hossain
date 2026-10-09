@@ -3,7 +3,16 @@
     <head>
         <!-- Set characters, link html to stylesheet, Title for Homepage-->
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta name="viewport" content="width=device-width">
+        <!--Style sheet for regular laptop/monitors-->
+        <link href="style.css" rel="stylesheet" type="text/css"  
+        media = "only screen and (min-width:960px)">
+        <!--Style sheet for tablets-->
+        <link href="tablet.css" rel="stylesheet" type="text/css"
+        media = "only screen and (min-width:481px) and (max-width:960px)">
+        <!--Style sheet for phones-->
+        <link href="phone.css" rel="stylesheet" type="text/css"
+        media = "only screen and (max-width:480px)">
         <title> Projects </title>
     </head>
     <body>
@@ -15,7 +24,7 @@
                 <h1>Shakir Hossain's Portfolio - Projects</h1>
                 <!-- Header Navigation bar linked to Home and Other Pages-->
                 <nav>
-                    <a href="home.html">Home</a>
+                    <a href="index.html">Home</a>
                     <a href="projects.html">Projects</a>
                     <a href="about.html">About</a>
                     <a href="contact.html">Contact</a>
@@ -70,13 +79,14 @@
                 <!--Footer provides email information-->
                 <nav>
                     <p></p>
-                    <a href="home.html">Home</a>
+                    <a href="index.html">Home</a>
                     <a href="projects.html">Projects</a>
                     <a href="about.html">About</a>
                     <a href="contact.html">Contact</a>
                     <!-- Address tag to link my email on footer-->
                     <address>
                         <p> Contact me at <a href="shakir.hossain@ontariotechu.net">shakir.hossain@ontariotechu.net</a></p>
+                        <p>© by Shakir Hossain</p>
                     </address>
                 </nav>
             </div>
