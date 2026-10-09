@@ -12,3 +12,6 @@ Colour: I mainly chose a blue-themed colour pattern due to its simplicity its ea
 
 
 Gradient Styles: Linear-gradient was used in all pages with the exception of the About Me page; the About Me page is where I used the radial gradient
+
+About Me Video: For the About Me video, I decided not to use the autoplay/muted feature because I feel the user should be able to see my picture first
+before proceeding to play the video if they want.
